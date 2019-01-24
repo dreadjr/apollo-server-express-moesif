@@ -3,7 +3,7 @@
 yarn
 
 # run
-node index.js
+MOESIF_APPLICATION_ID=<applicationId> node index.js
 
 # send request
 ./send.sh

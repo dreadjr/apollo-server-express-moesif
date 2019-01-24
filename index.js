@@ -25,7 +25,7 @@ const moesifExpress = require('moesif-express');
 
 const options = {
   debug: true,
-  applicationId: "<applicationId>",
+  applicationId: process.env.MOESIF_APPLICATION_ID,
 };
 
 const moesifMiddleware = moesifExpress(options);
